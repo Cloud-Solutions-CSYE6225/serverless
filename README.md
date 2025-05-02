@@ -32,7 +32,7 @@ Once deployed, the Lambda function listens for incoming SNS events. Each event s
   "recipient": "example@domain.com",
   "subject": "Your Subject Here",
   "message": "Your message body here"
-}
+}```
 
 ### Environment Variables
 
