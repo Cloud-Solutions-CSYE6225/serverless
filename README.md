@@ -26,6 +26,8 @@ Processes incoming records from SNS events and logs each message received.
 
 Used to convert the JSON-formatted SNS message into an `EmailRequest` object for internal use.
 Once deployed, the Lambda function listens for incoming SNS events. Each event should contain a JSON payload structured as follows:
+
+```json
 {
   "recipient": "example@domain.com",
   "subject": "Your Subject Here",
